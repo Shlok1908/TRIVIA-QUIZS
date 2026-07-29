@@ -90,7 +90,6 @@ southAfricaBtn.addEventListener("click", function(){
     startCountry("South Africa");
 
 });
-```
 ```javascript
 // ================================
 // START A COUNTRY QUIZ
