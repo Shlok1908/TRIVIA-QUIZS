@@ -160,7 +160,6 @@ function loadQuestion(){
     });
 
 }
-```
 
 ```javascript
 // ================================
@@ -242,7 +241,6 @@ function checkAnswer(selectedIndex){
     },1000);
 
 }
-```
 ```javascript
 // ================================
 // SHOW RESULT
