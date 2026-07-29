@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRICS Trivia Challenge</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- HOME SCREEN -->
+    <!-- ========================= -->
+
+    <div id="homeScreen" class="screen active">
+
+        <div class="home-content">
+
+            <img src="images/schoollogo.png"
+                 alt="School Logo"
+                 class="school-logo">
+
+            <h1>SOMALWAR SCHOOL NIKALAS</h1>
+
+            <button id="startBtn">
+                START
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- MAP SCREEN -->
+    <!-- ========================= -->
+
+    <div id="mapScreen" class="screen">
+
+        <h2>Select a BRICS Country</h2>
+
+        <div class="map-container">
+
+            <img
+                src="images/worldmap.png"
+                alt="World Map"
+                id="worldMap">
+
+            <!-- INDIA -->
+
+            <button
+                class="country-btn"
+                id="indiaBtn"
+                style="
+                top:52%;
+                left:69%;">
+                India
+            </button>
+
+            <!-- RUSSIA -->
+
+            <button
+                class="country-btn"
+                id="russiaBtn"
+                style="
+                top:21%;
+                left:66%;">
+                Russia
+            </button>
+
+            <!-- CHINA -->
+
+            <button
+                class="country-btn"
+                id="chinaBtn"
+                style="
+                top:46%;
+                left:75%;">
+                China
+            </button>
+
+            <!-- BRAZIL -->
+
+            <button
+                class="country-btn"
+                id="brazilBtn"
+                style="
+                top:60%;
+                left:28%;">
+                Brazil
+            </button>
+
+            <!-- SOUTH AFRICA -->
+
+            <button
+                class="country-btn"
+                id="southAfricaBtn"
+                style="
+                top:79%;
+                left:57%;">
+                South Africa
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- QUIZ SCREEN -->
+    <!-- ========================= -->
+
+    <div id="quizScreen" class="screen">
+
+        <div class="quiz-box">
+
+            <div class="quiz-header">
+
+                <h2 id="countryTitle">
+                    Country
+                </h2>
+
+                <div id="timer">
+                    10
+                </div>
+
+            </div>
+
+            <div class="progress">
+
+                <div id="progressBar"></div>
+
+            </div>
+
+            <h3 id="questionNumber">
+                Question
+            </h3>
+
+            <p id="questionText">
+
+                Question appears here
+
+            </p>
+
+            <div id="optionsContainer">
+
+            </div>
+
+            <button id="nextBtn">
+                NEXT
+            </button>
+
+        </div>
+
+    </div>
+```
+```html
+    <!-- ========================= -->
+    <!-- RESULT SCREEN -->
+    <!-- ========================= -->
+
+    <div id="resultScreen" class="screen">
+
+        <div class="result-box">
+
+            <h1>
+                Quiz Completed!
+            </h1>
+
+            <h2>
+                BRICS Trivia Challenge
+            </h2>
+
+            <p>
+                Your Final Score
+            </p>
+
+            <div id="finalScore">
+
+                0 / 20
+
+            </div>
+
+            <button id="playAgainBtn">
+
+                PLAY AGAIN
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- JAVASCRIPT FILES -->
+    <!-- ========================= -->
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
