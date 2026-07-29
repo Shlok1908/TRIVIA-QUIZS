@@ -338,4 +338,3 @@ mapScreen.classList.remove("active");
 quizScreen.classList.remove("active");
 
 resultScreen.classList.remove("active");
-```
